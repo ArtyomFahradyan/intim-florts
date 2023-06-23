@@ -2,15 +2,22 @@ import React from "react";
 import { Divider, Box } from "@mui/material";
 import { ReactComponent as Logo } from "assets/icons/Logo.svg";
 import SignUpModal from "./components/SignUpModal";
-import { Frame1, Frame2, Footer, LogoWrapper, Links } from "./styles";
+import {
+  Frame1,
+  Frame2,
+  Footer,
+  LogoWrapper,
+  Links,
+  FramesWrapper,
+} from "./styles";
 
 function Home() {
   return (
     <>
-      <div>
+      <FramesWrapper>
         <Frame1 />
         <Frame2 />
-      </div>
+      </FramesWrapper>
       <Footer>
         <LogoWrapper>
           <Logo />

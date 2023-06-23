@@ -9,9 +9,15 @@ export const Frame1 = styled("div")`
 `;
 export const Frame2 = styled("div")`
   background-image: url("Frame2.png");
-  background-repeat: no-repeat;
   background-size: auto;
   height: 323px;
+`;
+export const FramesWrapper = styled("div")`
+  min-height: 80vh;
+
+  > div {
+    background-repeat: repeat-x;
+  }
 `;
 
 export const Footer = styled("div")``;
